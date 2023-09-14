@@ -5,22 +5,30 @@
 }
 
 .container {
+  height: 40%;
   display: flex;
-  justify-content: center;
-  align-items: end;
-  text-decoration: none;
-  border: 2px solid red;
+  justify-content: end;
+  align-items: center;
+  padding: 30px 10px;
+  background-image: linear-gradient(yellow, green);
+  opacity: 86%;
+  font-size: 30px;
 }
 
-/* .nav {
-  border: 2px solid green;
-  align-items: center;
-} */
+.list_container {
+  /* border: 1px solid red; */
+}
 
-.nav div {
+nav ul {
   display: flex;
-  justify-items: row;
-  gap: 40px;
-  font-size: 30px;
-  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  color: blue;
+  box-shadow: 2px 4px 8px 5px;
+  padding: 20px 40px;
+}
+
+nav ul li {
+  list-style: none;
+  cursor: pointer;
 }
