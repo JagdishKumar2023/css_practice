@@ -15,10 +15,6 @@
   font-size: 30px;
 }
 
-.list_container {
-  /* border: 1px solid red; */
-}
-
 nav ul {
   display: flex;
   justify-content: space-between;

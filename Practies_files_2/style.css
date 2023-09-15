@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  display: flex;
+  justify-content: flex-end;
+  background: rgb(30, 27, 196);
+  gap: 18px;
+}
+
+.box > div {
+  background-color: #f1f1f1;
+  font-size: 40px;
+  padding: 10px 8px;
+  border: 3px solid rgb(212, 27, 107);
+  color: rgb(234, 215, 191);
+  cursor: pointer;
+  margin: 10px 10px;
+  box-shadow: 3px 2px;
+}
+
+div :hover {
+  color: red;
+  border-radius: 14px 10px;
+}
