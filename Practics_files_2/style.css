@@ -25,3 +25,13 @@ div :hover {
   color: red;
   border-radius: 14px 10px;
 }
+
+.images {
+  display: flex;
+  justify-content: start;
+  margin: 60px;
+}
+
+img {
+  cursor: pointer;
+}

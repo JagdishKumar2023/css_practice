@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border: 2px solid red;
+  display: flex;
+  height: 40%;
+  width: 80%;
+}
+
+.container > div {
+  height: 400px;
+  width: 400px;
+  background-color: aqua;
+}
