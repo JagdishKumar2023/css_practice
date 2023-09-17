@@ -30,6 +30,7 @@ div :hover {
   display: flex;
   justify-content: start;
   margin: 60px;
+  border: 2px solid blueviolet;
 }
 
 img {
