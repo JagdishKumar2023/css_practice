@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 2px solid red;
+  display: grid;
+  gap: 10px;
+  row-gap: 20px;
+  column-gap: 30px;
+  justify-content: center;
+  grid-template-columns: 200px 200px;
+  /* height: 150px; */
+}
+
+.box {
+  border: 2px solid blue;
+  /* height: 300px; */
+  height: 35vh;
+}
