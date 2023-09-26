@@ -6,15 +6,15 @@
 
 .Grid_container {
   display: grid;
-  /* grid-template-columns: 400px 400px 400px;
+  grid-template-columns: 400px 400px 400px;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   justify-content: space-evenly;
   border: 3px solid black;
-  padding: 20px;*/
+  padding: 20px;
   height: 600px;
   background: #df840d;
-  /* align-content: center; */
+  align-content: center;
   grid-template-areas:
     "header header header header header header"
     "menu main main main  right  right"
@@ -31,33 +31,44 @@
   text-align: center;
 }
 
-/* #grid-1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
+#grid-1 {
+  /* grid-column-start: 1;
+  grid-column-end: 4; */
   grid-row-start: 1;
-  grid-row-end: 5;
-}*/
+  grid-row-end: 4;
+}
 
-/* #grid-5 {
-  grid-area: 1/2/3/4;
-} */
+#grid-5 {
+  grid-area: 1 / span 2 / span3/span4;
+}
 
 #grid-1 {
   grid-area: header;
+  /* grid-column: 1 / span 3; */
+  /* grid-row-start: 1;
+  grid-row-end: 4; */
 }
 
 #grid-2 {
-  grid-area: menu;
+  grid-area: main;
+  grid-column: 1 / span2;
+  /* grid-row-start: 1;
+  grid-row-end: 4; */
 }
 
 #grid-3 {
   grid-area: main;
+  /* grid-row-start: 1;
+  grid-row-end: 4; */
 }
 
 #grid-4 {
   grid-area: right;
+  /* grid-row-start: 1;
+  grid-row-end: 4; */
 }
 
-#grid-5 {
+/* #grid-5 {
   grid-area: footer;
-}
+  /* grid-row-start: 1;
+  grid-row-end: 4; */
