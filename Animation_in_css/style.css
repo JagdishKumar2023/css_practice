@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes colorChange {
+  0% {
+    background: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background: pink;
+    left: 300px;
+    top: 0px;
+  }
+  50% {
+    background: yellowgreen;
+    left: 300px;
+    top: 300px;
+  }
+  75% {
+    background: wheat;
+    left: 300px;
+    top: 300px;
+  }
+  100% {
+    background: yellow;
+    left: 0px;
+    top: 300px;
+  }
+  /* 100% {
+    background: rgb(72, 72, 248);
+    left: 0px;
+    top: 0px;
+  } */
+}
+.main {
+  width: 300px;
+  height: 300px;
+  background: red;
+  position: relative;
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+  /* animation-name: colorChange;
+  animation-duration: 6s; */ /* Time duration */
+  /* animation-iteration-count: 5s; How Many time is run */
+  animation: colorChange 5s 0s infinite linear; /* Write everything in this property*/
+  /* animation-delay: 3s; delay in time */
+}
